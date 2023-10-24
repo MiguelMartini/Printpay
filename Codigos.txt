@@ -1,0 +1,4 @@
+#EFFCFF azul quase branco
+#00A8DE azul claro
+#046DB5 azul forte
+OUTRO AZUL#c5e3ff
