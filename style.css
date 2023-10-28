@@ -116,6 +116,25 @@ body{
     align-items: flex-end;
     left: 10px;
 }
+/*Menu lateral*/
+.sideCash {
+    position: absolute;
+    top: 30px;
+    right: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    background-color: #b4cfe9;
+    width: 145px;
+    height: 60px;
+    border: 4px solid #00A8DE;
+    border-radius: 18px;
+    cursor: pointer;
+}
+#cashValue {
+    font-size: 25px;
+}
 /*Section*/
 #container .btn{
     display: flex;

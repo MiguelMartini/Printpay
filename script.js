@@ -70,4 +70,31 @@ for (let i = 0; i < menus.length; i++) {
     }
   });
 }
+// Para apagar conteudo 
+    const cashValue = document.getElementById("cashValue");
+    var isVisible = true; 
+    
+    cashValue.innerText = 'R$-----';
+
+
+    document.querySelector(".sideCash").addEventListener("click", function () {
+      if (isVisible){
+        cashValue.innerText = `R$${dinheiro}`;
+        isVisible = false;
+      } else{
+        cashValue.innerText = `R$-----`;
+        isVisible = true;
+      }
+    });
+
+
+    /*document.querySelector(".sideCash").addEventListener("click", function () {
+        if (isVisible) {
+          
+            cashValue.style.display = "none";
+        } else { 
+            cashValue.style.display = "block";
+        }
+        isVisible = !isVisible;
+    });*/
 
